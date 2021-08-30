@@ -20,3 +20,39 @@ I am studying frontend, I want to become a developer!
 - JavaScript Basics
 - Git, GitHub
 - VS Code
+
+## Code example:
+
+    function calculator(string) {
+
+    if (string.includes('+')) {
+    let signIndex = string.indexOf('+');
+
+    let result = +string.slice(0, signIndex).trim() + +string.slice(signIndex + 1).trim();
+
+    return(String(result));
+
+} else if (string.includes('-')) {
+let signIndex = string.indexOf('-');
+
+    let result = +string.slice(0, signIndex).trim() - +string.slice(signIndex + 1).trim();
+
+    return(String(result));
+
+} else if (string.includes('_')) {
+let signIndex = string.indexOf('_');
+
+    let result = +string.slice(0, signIndex).trim() * +string.slice(signIndex + 1).trim();
+
+    return(String(result));
+
+} else if (string.includes('/')) {
+let signIndex = string.indexOf('/');
+
+    let result = +string.slice(0, signIndex).trim() / +string.slice(signIndex + 1).trim();
+
+    return(String(result));
+
+}
+
+}
