@@ -12,3 +12,11 @@
 ## About myself
 
 I am studying frontend, I want to become a developer!
+
+## Skills
+
+- HTML5
+- CSS3
+- JavaScript Basics
+- Git, GitHub
+- VS Code
