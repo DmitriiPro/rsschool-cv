@@ -56,3 +56,8 @@ let signIndex = string.indexOf('/');
 }
 
 }
+
+## Languages:
+
+-Russian - Native
+-Basic English
