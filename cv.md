@@ -59,5 +59,5 @@ let signIndex = string.indexOf('/');
 
 ## Languages:
 
--Russian - Native
+-Russian Native
 -Basic English
