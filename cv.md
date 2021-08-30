@@ -2,4 +2,4 @@
 
 ## Dmitrii Proskurin
 
--
+- Junior Frontend Developer
